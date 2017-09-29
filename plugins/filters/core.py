@@ -26,5 +26,5 @@ def filter(s):
 class FilterModule(object):
     def filters(self):
         return {
-            'filter': filter,
+            'dependency_filter': filter,
         }
